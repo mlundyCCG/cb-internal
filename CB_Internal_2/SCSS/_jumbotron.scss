@@ -1,0 +1,53 @@
+@import "./variables";
+@import "./mixins";
+
+.jumbotron {
+    // Image grabbed from https://stock.adobe.com/search?k=%22cloud+computing%22&asset_id=354345119
+    background: url(/imgs/data-cloud.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+    margin-bottom: 0em;
+    top: -7vh;
+
+    &-content {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        color: #fff;
+
+        .display-4 {
+            font-weight: bold;
+        }
+    }
+
+    &-search {
+        width: 40%;
+        margin-bottom: 2em;
+    }
+}
+
+.lead {
+    margin-bottom: 1.5em;
+}
+
+.bi-arrow-down-square {
+    position: absolute;
+    bottom: -150px;
+    font-size: 30px;
+    color: #fff;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.card {
+    border: none;
+
+    &-icon {
+        font-size: 30px;
+    }
+}
+
+
