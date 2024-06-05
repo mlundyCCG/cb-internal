@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn-light-blue {
+  background: #A4C5DC;
+  color: #000 !important;
+  transition: all 0.3s;
+}
+.btn-light-blue:hover {
+  background: #6da2c7;
+}
+
+.dark-link-style {
+  text-decoration: none;
+  color: #000;
+}
+
+.jumbotron-search-btn {
+  background: #A4C5DC;
+  outline: 2px solid black;
+  border: none;
+  padding: 0 10px;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+.jumbotron-search-btn:hover {
+  background: #6da2c7;
+}
+
+.cb-site-header {
+  margin-left: 9%;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 3em;
+}
+
+.top-banner-search {
+  width: 40%;
+}
+.top-banner-search .form-control {
+  border: 2px solid black;
+}
+
+.top-banner {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  margin-bottom: 10em;
+}
+.top-banner-content {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  transform: translate(-50% -30%);
+  color: white;
+}
+.top-banner-title {
+  font-size: 3rem;
+}
+.top-banner-tagline {
+  margin-bottom: 1em;
+}
+.top-banner-search {
+  margin-bottom: 1em;
+}
+.top-banner-btns {
+  margin-bottom: 10em;
+}
+.top-banner-quick-links .ql-title {
+  font-size: 1.5rem;
+  color: white;
+}
+.top-banner-quick-links .ql-row {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.top-banner-quick-links .ql-row:last-of-type {
+  margin-bottom: 5em;
+}
+.top-banner-quick-links-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  border: 2px solid #fff;
+  border-left: 2px solid black;
+  width: 23%;
+  padding-top: 10px;
+  transition: all 0.3s;
+  transform: skew(-20deg);
+}
+.top-banner-quick-links-link:first-of-type {
+  border-left: 2px solid #fff;
+}
+.top-banner-quick-links-link:hover {
+  background: #fff;
+  color: #49494a;
+  cursor: pointer;
+}
+.top-banner-quick-links-link:hover .bi {
+  color: #49494a;
+}
+.top-banner-quick-links-link .bi {
+  font-size: 1.1rem;
+  color: white;
+  transform: skew(20deg);
+}
+.top-banner-quick-links-link p {
+  transform: skew(20deg);
+}
+
+.card {
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding-top: 0.5em;
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.card-icon {
+  font-size: 30px;
+}
+
+.quick-access-cards {
+  margin-bottom: 2em;
+  margin-top: 110vh;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #dcdcdc;
+}/*# sourceMappingURL=main.css.map */

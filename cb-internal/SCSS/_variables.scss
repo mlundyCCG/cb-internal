@@ -1,0 +1,26 @@
+//Primary Colors
+
+$dark-blue: #315177;
+$slate-blue: #7798AF;
+$light-blue: #A4C5DC;
+$light-gray: #e2e2e1;
+$black: #49494a;
+
+// Secondary Colors
+
+$teal: #3bbfad;
+$orange: #ee7623;
+$yellow: #fdb516;
+
+$banner-blue: #041829;
+$banner-pink: #7a2566;
+
+$card-bg: #ededed;
+
+@mixin centerText() {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: -50%;
+}

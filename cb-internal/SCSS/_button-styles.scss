@@ -1,0 +1,29 @@
+@import "./variables";
+
+.btn-light-blue {
+    background: $light-blue;
+    color: #000 !important;
+    transition: all .3s;
+
+    &:hover {
+        background: darken($light-blue, 15%);
+    }
+}
+
+.dark-link-style {
+    text-decoration: none;
+    color: #000;
+}
+
+.jumbotron-search-btn {
+    background: $light-blue;
+    outline: 2px solid black;
+    border: none;
+    padding: 0 10px;
+    border-radius: 6px;
+    transition: all .3s;
+    
+    &:hover {
+        background: darken($light-blue, 15%);
+    }
+}

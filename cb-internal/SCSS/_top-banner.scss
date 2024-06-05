@@ -1,0 +1,115 @@
+.top-banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center center;
+    margin-bottom: 10em;
+
+    &-content {
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        transform: translate(-50% -30%);
+        color: white;
+    }
+
+    &-title {
+        font-size: 3rem;
+    }
+
+    &-tagline {
+        margin-bottom: 1em;
+    }
+
+    &-search {
+        margin-bottom: 1em;
+    }
+
+    &-btns {
+        margin-bottom: 10em;
+    }
+
+    &-quick-links {
+        // width: 80%;
+        // height: 13vh;
+        // background: $dark-blue;
+
+        .ql-title {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .ql-row  {
+            position: relative;
+            text-align: center;
+            margin-bottom: 1em;  
+
+            &:last-of-type {
+                margin-bottom: 5em;
+            }
+        }
+
+        &-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+            border: 2px solid #fff;
+            // border-right: 2px solid black;
+            border-left: 2px solid black;
+            // margin-right: .8em;
+            width: 23%;
+            padding-top: 10px;
+            transition: all .3s;
+            transform: skew(-20deg);
+
+            &:first-of-type {
+                border-left: 2px solid #fff;
+            }
+
+            &:hover {
+                background: #fff;
+                color: $black;
+                cursor: pointer;
+            }
+
+            &:hover .bi {
+                color: $black;
+            }
+
+            .bi {
+                font-size: 1.1rem;
+                color: white;
+                transform: skew(20deg);
+            }
+
+            p {
+                transform: skew(20deg);
+            }
+        }
+    }
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding-top: .5em;
+    transition: all .3s;
+
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    &-icon {
+        font-size: 30px;
+    }
+}
+
+.quick-access-cards {
+    margin-bottom: 2em;
+    margin-top: 110vh;
+}
